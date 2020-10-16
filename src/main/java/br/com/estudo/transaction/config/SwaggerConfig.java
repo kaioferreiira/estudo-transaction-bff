@@ -26,11 +26,11 @@ public class SwaggerConfig {
 
     private ApiInfo metaData() {
         return new ApiInfoBuilder()
-                .title("CoffeeAndIT")
-                .description("Curso de Microsserviços do Zero à Produção")
+                .title("Business Transactions ")
+                .description("Projeto Final - Curso de Microsserviços")
                 .version("1.0.0")
-                .license("Apache License Version 2.0")
-                .licenseUrl("https://www.apache.org/licenses/LICENSE-2.0\"")
+                .license("Kaio Ferreira")
+                .licenseUrl("https://www.kaioferreira.blog")
                 .build();
     }
 
