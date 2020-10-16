@@ -12,13 +12,13 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.mongodb.core.ReactiveMongoOperations;
 import org.springframework.web.reactive.config.EnableWebFlux;
 import reactor.core.publisher.Flux;
-//import springfox.documentation.swagger2.annotations.EnableSwagger2WebFlux;
+import springfox.documentation.swagger2.annotations.EnableSwagger2WebFlux;
 
 
 
 @SpringBootApplication
 @EnableWebFlux
-//@EnableSwagger2WebFlux
+@EnableSwagger2WebFlux
 @EnableAutoConfiguration
 @ComponentScan("br.com.estudo.transaction")
 public class EstudoTransactionBffApplication {
